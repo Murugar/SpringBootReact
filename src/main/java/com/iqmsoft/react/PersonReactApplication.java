@@ -28,15 +28,15 @@ public class PersonReactApplication {
 
         @Override
         public void run(String... strings) {
-            this.repository.save(new Person("Aokiji", "Kuzan", "aokiji_kuzan@onepiece.com"));
-            this.repository.save(new Person("Akainu", "Sakazuki", "akainu_sakazuki@onepiece.com"));
-            this.repository.save(new Person("Roronoa", "Zoro", "roronoa_zoro@onepiece.com"));
-            this.repository.save(new Person("Franky", "Cyborg", "franky_cyborg@onepiece.com"));
-            this.repository.save(new Person("Hendi", "Santika", "hendisantika@konohagakure.com"));
-            this.repository.save(new Person("Uzumaki", "Naruto", "uzumaki_naruto@konohagakure.com"));
-            this.repository.save(new Person("Hatake", "Kakashi", "kakahis_hatake@konohagakure.com"));
-            this.repository.save(new Person("Sakura", "Haruno", "sakura_haruno@konohagakure.com"));
-            this.repository.save(new Person("Sasuke", "Uchiha", "sasuke_uchiha@konohagakure.com"));
+            this.repository.save(new Person("Test1", "Test1", "test1@test1.com"));
+            this.repository.save(new Person("Test2", "Test2", "test2@test2.com"));
+            this.repository.save(new Person("Test3", "Test3", "test3@test3.com"));
+            this.repository.save(new Person("Test4", "Test4", "test4@test4.com"));
+            this.repository.save(new Person("Test5", "Test5", "test5@test5.com"));
+            this.repository.save(new Person("Test6", "Test6", "test6@test6.com"));
+            this.repository.save(new Person("Test7", "Test7", "test7@test7.com"));
+            this.repository.save(new Person("Test8", "Test8", "test8@test8.com"));
+            this.repository.save(new Person("Test9", "Test9", "test9@test9.com"));
         }
     }
 }
